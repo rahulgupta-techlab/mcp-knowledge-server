@@ -1,6 +1,6 @@
 """MCP server exposing plant-operations data and documents to LLM clients.
 
-Run over stdio (the default transport for Claude Desktop / Claude Code / IDEs):
+Run over stdio (the default transport for desktop and IDE MCP clients):
 
     python -m src.server
 """

@@ -1,7 +1,7 @@
 # MCP Knowledge Server
 
 A [Model Context Protocol](https://modelcontextprotocol.io) server that gives an
-LLM client (Claude Desktop, Claude Code, an IDE agent, or your own agent) safe,
+MCP client (a desktop AI assistant, an IDE agent, or your own agent) safe,
 structured access to plant-operations data:
 
 - **Tools**
@@ -49,7 +49,7 @@ python -m pytest            # 16 tests
 python -m src.client_demo   # starts the server over stdio and calls each tool
 ```
 
-### Use it from Claude Desktop / Claude Code
+### Use it from an MCP client
 
 ```json
 {
@@ -63,7 +63,7 @@ python -m src.client_demo   # starts the server over stdio and calls each tool
 }
 ```
 
-Or with Claude Code: `claude mcp add plant-knowledge -- python -m src.server` (run from the repo folder).
+Add this entry to your MCP client's server configuration (most desktop and IDE clients use this format).
 
 ## Design notes
 
